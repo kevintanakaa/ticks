@@ -1,0 +1,45 @@
+@import url('style.css');
+
+.upcoming-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px 5px 0 0;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.upcoming-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.upcoming-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+
+.tanggal-upcoming, .harga-upcoming {
+    font-weight: 350;
+    margin-left: 10px;
+}
+
+.tanggal-upcoming {
+    font-size: 15px;
+}
+
+.harga-upcoming {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.judul-upcoming {
+    margin-left: 10px;
+}

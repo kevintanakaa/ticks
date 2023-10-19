@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="left-header">
+                <div class="logo-ticks">
+                    <img src="images/tickslogo.png" alt="" id="ticks-logo">
+                </div>
+                <div class="navbar">
+                    <a href="index.html" class="nav-item">Home</a>
+                    <div class="dropdown">
+                        <a href="javascript:void(0);" class="nav-item">Items</a>
+                        <div class="dropdown-menu">
+                            <a href="ticket.html" class="dropdown-item">Tickets</a>
+                            <a href="promotion.html" class="dropdown-item">Promotions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-header">
+                <div class="navbar">
+                    <a href="registration.html" class="nav-item">Registration</a>
+                </div>
+                <div class="my-account">
+                    <a href="#">
+                        <img src="images/pp.jpg" alt="" id="profile-pic">
+                    </a>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="slider-container">
+            <div class="image-container">
+                <img src="images/coldplay slider.jpg" alt="" id="slider1" class="slider-pic fade">
+                <img src="images/carousel 2.jpg" alt="" id="slider2" class="slider-pic fade">
+                <img src="images/carousel 3.jpg" alt="" id="slider3" class="slider-pic fade">
+                <img src="images/carousel 4.jpg" alt="" id="slider4" class="slider-pic fade">
+                <a class="back" onclick="nextSlides(-1)">&#10094;</a>
+                <a class="next" onclick="nextSlides(1)">&#10095;</a>
+            </div>
+
+            <div style="text-align:center" class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="contents">
+        <h1 class="content-title">Konser Terkini!</h1>
+        <div class="konser-container">
+            <a href="detail-1.html" class="detail-link">
+                <div class="konser">
+                    <img src="images/konser1.jpeg" alt="" class="konser-img">
+                    <h4 class="judul-konser">Indie Rock</h4>
+                    <div class="konser-desc">
+                        <ul>
+                            <li>27-11-2022</li>
+                            <li>7$</li>
+                            <li>Bosen dengerin lagu gitu-gitu aja? Dengerin deh mix-up dari lagu indie dengan rock!</li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+
+            <a href="detail-2.html" class="detail-link">
+                <div class="konser">
+                    <img src="images/konser2.jpeg" alt="" class="konser-img">
+                    <h4 class="judul-konser">Live Music Jazz Festival</h4>
+                    <div class="konser-desc">
+                        <ul>
+                            <li>01-08-2022</li>
+                            <li>30$</li>
+                            <li>Lelah dengan kerjaan? Nikmati permainan solo dari Jonny Danse, sang bintang baru!</li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+
+            <a href="detail-3.html" class="detail-link">
+                <div class="konser">
+                    <img src="images/konser3.jpeg" alt="" class="konser-img">
+                    <h4 class="judul-konser">Blues&Jazz</h4>
+                    <div class="konser-desc">
+                        <ul>
+                            <li>04-09-2022</li>
+                            <li>17.5$</li>
+                            <li> Hari yang melelahkan? Ngejazz aja bareng The Woodlands biar santai!</li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+
+            <a href="detail-4.html" class="detail-link">
+                <div class="konser">
+                    <img src="images/konser4.jpeg" alt="" class="konser-img">
+                    <h4 class="judul-konser">Retro Party</h4>
+                    <div class="konser-desc">
+                        <ul>
+                            <li>23-08-2022</li>
+                            <li>10$</li>
+                            <li>Dengarkan musik favoritmu bersama Taylor Swift! Sailor Swift akan menemani untuk menikmati musik favoritmu!</li>   
+                        </ul>
+                    </div>
+                </div>
+            </a>
+
+            <a href="detail-5.html" class="detail-link">
+                <div class="konser">
+                    <img src="images/konser5.jpeg" alt="" class="konser-img">
+                    <h4 class="judul-konser">John Smith & Jean Smith</h4>
+                    <div class="konser-desc">
+                        <ul>
+                            <li>23-03-2022</li>
+                            <li>12$</li>
+                            <li>Penampilan dari duet maut bersaudara John Smith dan Jean Smith selama 7 hari segera</li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <br>
+        <br>
+        <hr>
+        <br>
+
+        <div class="contents">
+            <h1 class="content-title">Recommendation</h1>
+            <div class="konser-container">
+                <a href="detail-1.html" class="detail-link">
+                    <div class="konser">
+                        <img src="images/konser1.jpeg" alt="" class="konser-img">
+                        <h4 class="judul-konser">Indie Rock</h4>
+                        <div class="konser-desc">
+                            <ul>
+                                <li>27-11-2022</li>
+                                <li>7$</li>
+                                <li>Bosen dengerin lagu gitu-gitu aja? Dengerin deh mix-up dari lagu indie dengan rock!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+    
+                <a href="detail-2.html" class="detail-link">
+                    <div class="konser">
+                        <img src="images/konser2.jpeg" alt="" class="konser-img">
+                        <h4 class="judul-konser">Live Music Jazz Festival</h4>
+                        <div class="konser-desc">
+                            <ul>
+                                <li>01-08-2022</li>
+                                <li>30$</li>
+                                <li>Lelah dengan kerjaan? Nikmati permainan solo dari Jonny Danse, sang bintang baru!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+    
+                <a href="detail-3.html" class="detail-link">
+                    <div class="konser">
+                        <img src="images/konser3.jpeg" alt="" class="konser-img">
+                        <h4 class="judul-konser">Blues&Jazz</h4>
+                        <div class="konser-desc">
+                            <ul>
+                                <li>04-09-2022</li>
+                                <li>17.5$</li>
+                                <li>Hari yang melelahkan? Ngejazz aja bareng The Woodlands biar santai!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+    
+                <a href="detail-4.html" class="detail-link">
+                    <div class="konser">
+                        <img src="images/konser4.jpeg" alt="" class="konser-img">
+                        <h4 class="judul-konser">Retro Party</h4>
+                        <div class="konser-desc">
+                            <ul>
+                                <li>23-08-2022</li>
+                                <li>10$</li>
+                                <li>Dengarkan musik favoritmu bersama Taylor Swift! Sailor Swift akan menemani untuk menikmati musik favoritmu!</li>   
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+    
+                <a href="detail-5.html" class="detail-link">
+                    <div class="konser">
+                        <img src="images/konser5.jpeg" alt="" class="konser-img">
+                        <h4 class="judul-konser">John Smith & Jean Smith</h4>
+                        <div class="konser-desc">
+                            <ul>
+                                <li>23-03-2022</li>
+                                <li>12$</li>
+                                <li>Penampilan dari duet maut bersaudara John Smith dan Jean Smith selama 7 hari segera</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+            </div>
+       
+        
+    </div>
+    <script src="script.js"></script>
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="dropdown.js"></script>
+</body>
+</html>
